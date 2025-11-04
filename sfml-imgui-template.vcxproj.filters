@@ -13,28 +13,31 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ImGui Files">
+      <UniqueIdentifier>{7f21bed5-921f-41d9-a422-f37b37289ad1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="External\ImGui-SFML\Source\imgui-SFML.cpp">
+      <Filter>ImGui Files</Filter>
+    </ClCompile>
     <ClCompile Include="External\ImGui\Source\imgui.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>ImGui Files</Filter>
     </ClCompile>
     <ClCompile Include="External\ImGui\Source\imgui_demo.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>ImGui Files</Filter>
     </ClCompile>
     <ClCompile Include="External\ImGui\Source\imgui_draw.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>ImGui Files</Filter>
     </ClCompile>
     <ClCompile Include="External\ImGui\Source\imgui_tables.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>ImGui Files</Filter>
     </ClCompile>
     <ClCompile Include="External\ImGui\Source\imgui_widgets.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="External\ImGui-SFML\Source\imgui-SFML.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>ImGui Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
